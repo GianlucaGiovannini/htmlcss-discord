@@ -39,8 +39,7 @@ ul {
 .container {
     position: relative;
     height: 70vh;
-    margin: 50px 0;
-    padding: 95px;
+    padding: 95px 0;
 }
 
 .center {
@@ -204,6 +203,20 @@ ul {
  Main
 **************/
 
+
+/* .wave */
+
+.wave {
+    opacity: 4%;
+    margin-bottom: -5px;
+}
+
+.wave2 {
+    opacity: 4%;
+    transform: rotate(180deg);
+    margin-top: -4%;
+}
+
 .col-70 {
     float: left;
     height: 70vh;
@@ -249,7 +262,6 @@ ul {
 .last-container {
     text-align: center;
     position: relative;
-    margin: 50px 0;
     padding: 95px;
 }
 
