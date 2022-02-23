@@ -99,6 +99,10 @@ select {
     margin-bottom: 40px;
 }
 
+.bottone:hover {
+    box-shadow: 0 0 20px black;
+}
+
 
 /* 
  Header
@@ -164,6 +168,10 @@ select {
 .navigation li {
     display: inline-block;
     margin: 0 1rem;
+}
+
+.navigation>ul>li>a:hover {
+    text-decoration: underline;
 }
 
 
@@ -376,6 +384,10 @@ select {
 .col-15 a {
     color: white;
     font-weight: 600;
+}
+
+.col-15>ul>li>a:hover {
+    text-decoration: underline;
 }
 
 .social {
