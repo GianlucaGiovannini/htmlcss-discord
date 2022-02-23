@@ -8,14 +8,29 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-image: url("./../img/jumbo.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
     height: 70vh;
 }
 
 img {
     max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
 }
 
 
@@ -27,4 +42,124 @@ img {
     content: "";
     display: table;
     clear: both;
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.bg-white {
+    background-color: white;
+    color: black;
+}
+
+.bg-black {
+    background-color: #23272A;
+    color: white;
+}
+
+
+/* 
+ Header
+**************/
+
+.site_header {
+    position: relative;
+}
+
+.navbar {
+    line-height: 100px;
+    font-weight: 600;
+}
+
+.logo {
+    float: left;
+    line-height: 122px;
+    vertical-align: middle;
+}
+
+.btn-sign {
+    float: right;
+    vertical-align: middle;
+}
+
+.btn-sign a {
+    font-size: 1rem;
+    color: #373B3D;
+    background-color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 40px;
+}
+
+
+/* navigation */
+
+.navigation {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navigation a {
+    color: #F6F8FE;
+    font-size: 18px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+
+/* title-header */
+
+.title-header {
+    font-weight: 600;
+    width: 920px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    margin: 3rem;
+}
+
+.title>h1 {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.title-desc {
+    margin-bottom: 2.5rem;
+}
+
+.title-desc>p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.title-btn a {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 24px;
+    margin-left: 45px;
+}
+
+.title-btn .bg-white>span::after {
+    content: "\01F827";
+    font-size: 28px;
+    vertical-align: bottom;
+    margin-right: 10px;
 }
