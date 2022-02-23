@@ -25,6 +25,13 @@ ul {
     display: inline-block;
 }
 
+select {
+    color: white;
+    background-color: transparent;
+    border: none;
+    vertical-align: super;
+}
+
 
 /* 
  Utility
@@ -121,6 +128,18 @@ ul {
     vertical-align: middle;
 }
 
+.btn-register {
+    float: right;
+}
+
+.btn-register a {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 40px;
+    color: white;
+    background-color: #8EA1E1;
+}
+
 .btn-sign a {
     font-size: 1rem;
     color: #373B3D;
@@ -214,7 +233,7 @@ ul {
 .wave2 {
     opacity: 4%;
     transform: rotate(180deg);
-    margin-top: -4%;
+    margin-top: -4px;
 }
 
 .col-70 {
@@ -307,4 +326,76 @@ ul {
 
 .content-stars strong {
     font-size: 35px;
+}
+
+
+/* 
+ Footer
+ ***************/
+
+.site_footer {
+    background-color: #23272A;
+    padding: 100px 0 0;
+}
+
+.site_footer h4,
+.site_footer h2 {
+    color: #7289DA;
+    line-height: ;
+}
+
+.site_footer h2 {
+    font-size: 30px;
+}
+
+.col-24 {
+    float: left;
+    width: 24%;
+    margin-right: 8%;
+    color: white;
+    line-height: 45px;
+}
+
+.col-24 img {
+    width: 30px;
+}
+
+.foot-img,
+.social {
+    margin-top: 15px;
+}
+
+.col-15 {
+    float: left;
+    width: 15%;
+    margin-left: 2%;
+    color: white;
+    line-height: 45px;
+}
+
+.col-15 a {
+    color: white;
+    font-weight: 600;
+}
+
+.social {
+    font-size: 25px;
+}
+
+.social i {
+    margin-right: 20px;
+}
+
+.social>a {
+    color: white;
+}
+
+
+/* btn footer */
+
+.btn-footer {
+    margin-top: 20px;
+    border-top: 1px solid #48557D;
+    line-height: 100px;
+    padding: 15px;
 }
