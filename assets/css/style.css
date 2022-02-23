@@ -26,6 +26,7 @@ ul {
 }
 
 select {
+    font-size: 17px;
     color: white;
     background-color: transparent;
     border: none;
