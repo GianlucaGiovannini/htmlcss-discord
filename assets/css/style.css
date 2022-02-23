@@ -1,0 +1,30 @@
+/* 
+ Common
+**************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("./../img/jumbo.png");
+    background-size: cover;
+    height: 70vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* 
+ Utility
+**************/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
