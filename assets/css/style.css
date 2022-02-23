@@ -12,14 +12,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.site_header {
-    background-image: url("./../img/jumbo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 70vh;
-}
-
 img {
     max-width: 100%;
 }
@@ -84,14 +76,35 @@ ul {
     color: white;
 }
 
+.bg-blue {
+    background-color: #8EA1E1;
+    color: white;
+}
+
 .bg-grey {
     background-color: #F6F6F6;
+}
+
+.m-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.m-bottom-40 {
+    margin-bottom: 40px;
 }
 
 
 /* 
  Header
 **************/
+
+.site_header {
+    background-image: url("./../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 70vh;
+}
 
 .navbar {
     line-height: 100px;
@@ -178,7 +191,8 @@ ul {
     margin-left: 40px;
 }
 
-.title-btn .bg-white>span::after {
+.title-btn .bg-white>span::after,
+.title-btn .bg-blue>span::after {
     content: "\01F827";
     font-size: 28px;
     vertical-align: bottom;
@@ -215,7 +229,6 @@ ul {
     font-size: 16px;
     font-weight: 600;
     line-height: 33px;
-    margin-top
 }
 
 .col-desc {
@@ -228,4 +241,58 @@ ul {
 
 .align-right {
     text-align: right;
+}
+
+
+/* last container  */
+
+.last-container {
+    text-align: center;
+    position: relative;
+    margin: 50px 0;
+    padding: 95px;
+}
+
+.last-title {
+    width: 92%;
+    margin: 0 auto 20px;
+}
+
+.last-container strong {
+    font-size: 47px;
+    color: #23272A;
+}
+
+.last-container p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.last-img {
+    margin-bottom: 60px;
+}
+
+.content-stars {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    position: relative;
+}
+
+.stars-img {
+    width: 756px;
+    height: 78px;
+    margin: 0 auto;
+    background-image: url(./../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    top: 0px;
+    left: 117px;
+}
+
+.content-stars strong {
+    font-size: 35px;
 }
